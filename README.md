@@ -25,9 +25,9 @@ The model caught 157 of 173 fake postings, with 36 false alarms among 3,403 real
 Accuracy is about 99%, but it is not a good measure here because the data is imbalanced, so the metrics above are the ones that matter.
 
 ## How to run
-1. Download `fake_job_postings.csv` from the Kaggle link above
+1. Download the dataset from the Kaggle link above (it downloads as `archive.zip`)
 2. Open the notebook in Colab using the badge above
-3. Upload the CSV and run all cells
+3. Upload `archive.zip` when the upload cell asks for it, then run all cells
 
 ## Future work
 - Compare with Linear SVM and Random Forest
